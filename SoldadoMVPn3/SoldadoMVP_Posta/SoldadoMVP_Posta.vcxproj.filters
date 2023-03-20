@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Modelo">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Modelo\Arma">
+      <UniqueIdentifier>{be5f5fd3-ac62-4c53-9343-4410414550ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modelo\Escopeta">
+      <UniqueIdentifier>{5d205aba-0972-4a3f-b770-aa5649f11224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentador">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Vista">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Modelo\Rifle">
+      <UniqueIdentifier>{716af850-5d22-4ff0-8169-ee988f0e0907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modelo\Revolver">
+      <UniqueIdentifier>{42acb059-3846-4baf-a50e-281bb9fcde99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modelo\Soldado">
+      <UniqueIdentifier>{55abf7cb-678a-483b-ab46-3689375a5eaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Presentador.cpp">
+      <Filter>Presentador</Filter>
+    </ClCompile>
+    <ClCompile Include="Vista.cpp">
+      <Filter>Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="Arma.cpp">
+      <Filter>Modelo\Arma</Filter>
+    </ClCompile>
+    <ClCompile Include="Escopeta.cpp">
+      <Filter>Modelo\Escopeta</Filter>
+    </ClCompile>
+    <ClCompile Include="Rifle.cpp">
+      <Filter>Modelo\Rifle</Filter>
+    </ClCompile>
+    <ClCompile Include="Revolver.cpp">
+      <Filter>Modelo\Revolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldado.cpp">
+      <Filter>Modelo\Soldado</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Vista.h">
+      <Filter>Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="Arma.h">
+      <Filter>Modelo\Arma</Filter>
+    </ClInclude>
+    <ClInclude Include="Escopeta.h">
+      <Filter>Modelo\Escopeta</Filter>
+    </ClInclude>
+    <ClInclude Include="Rifle.h">
+      <Filter>Modelo\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="Revolver.h">
+      <Filter>Modelo\Revolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldado.h">
+      <Filter>Modelo\Soldado</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentador.h">
+      <Filter>Presentador</Filter>
+    </ClInclude>
+    <ClInclude Include="IVista.h">
+      <Filter>Vista</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
